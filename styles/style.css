@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,
+body {
+      font-family: "roboto";
+}
+header,
+#intro {
+    background: url('../bilder/1.jpg')no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+#introhead {
+  margin-top: 350px;
+}
+
+/* About me */
+
+.fixed-top {
+			position: fixed;
+			top: 0px;
+			background: rgba(00,00,00,0.6)!important;
+			right: 0px;
+			left: 0px;
+			z-index: 1030;
+		}
+
+nav{
+	background: black;
+	top: 0px;
+	position: fixed;
+	z-index: 99999;
+}
+.top-nav-collapse {
+    background-color: #24355C;
+	z-index: 2;
+	position: relative;}
+	
+
+/* About me */
+#aboutimage {
+  position: relative;
+  margin-left: 400px;
+}
+
+#abouttext {
+  margin-right: 400px;
+  text-align: left;
+  margin-left: -70px;
+  margin-top: -500px;
+  position:relative;
+}
+
+#aboutheader2 {
+  margin-right: 400px;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 50px;;
+}
+
+
+
+/* Fooer */
+
+#footer {
+  border-top-style: solid;
+  border-top-width: 5px;
+  background: rgba(00,00,00,0.6);
+}
+
+
+  
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+	  
+}
+
+
